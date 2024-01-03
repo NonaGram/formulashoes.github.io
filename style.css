@@ -1,0 +1,529 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+ 
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(img/bg.webp);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    opacity: 90%;
+    
+}
+
+#header1{
+    color: honeydew;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    height: 20px;
+    background: rgba(14, 12, 12, 0.9);
+}
+
+.navigation{
+    flex: 1;
+    text-align: right;
+   
+}
+.navigation li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    
+}
+
+.navigation a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: .4s;
+}
+
+#span1{
+    color: green;
+}
+
+
+.navigation a:hover{
+
+    background: green;
+ 
+    border-radius: 15px;
+    padding: 10px;
+    
+}
+
+button{
+    height: 5vh;
+    border-radius: 20px;
+    background: black;
+    border-color: green;
+}
+
+.button{
+    color: green;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.box{
+    border: grey solid 1px;
+    background: rgba(14, 12, 12, 0.7);
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   height: 50vh;
+   width: 100vh;
+}
+
+.home1{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
+    font-family: cursive;
+}
+
+#header2{
+    font-size: 50px;
+    margin-top: 10px;
+}
+
+#p1{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+
+
+
+
+
+/* Page 2 - ABOUT US */
+.header6{
+    min-height: 170vh;
+    width: 100%;
+    background-image: url(img/bg.webp);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    opacity: 90%;
+}
+
+.color{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgba(0, 0, 0, 0.9);
+    text-align: center;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: -10px;
+}
+.About1{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 80px;
+    
+}
+
+.box2{
+    border: black solid 2px;
+    border-radius: 30px;
+    height: 30vh;
+    width:40vh;
+    float: left;
+    padding: 30px;
+    margin: 105px;
+    margin-top: 50px;
+    background: rgb(31, 33, 34);
+    color: white;
+    transition: 2.5s ease-in-out;
+}
+
+.box2:hover{
+    box-shadow: 0px 0px 30px 20px black;
+    transition: .6s;
+    background-color: rgb(255, 255, 255);
+    color: green;
+}
+#p2{
+    padding: 13px;
+
+}
+#p3{
+    padding: 1px;
+
+}
+.box3{
+    border: black solid 2px;
+    border-radius: 30px;
+    height: 30vh;
+    width: 40vh;
+    float: left;
+    padding: 30px;
+    margin: 108px;
+    margin-top: -30px;
+    color: white;
+    background: rgb(31, 33, 34);
+    transition: 2.5s ease-in-out;
+}
+.box3:hover{
+    box-shadow: 0px 0px 30px 20px black;
+    transition: .6s;
+    background-color: white;
+    color: green;
+}
+
+/*  Page 3 - Products */
+.click {
+    text-align: center;
+    color: #1ed117;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 40px;
+    padding: 10px;
+    width: 50%;
+    margin-left: 50vh;
+    font-size: 25px;
+ 
+}
+.header3{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(img/bg\ 3.webp);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    opacity: 90%;
+}
+
+.shoes{
+    height: 20vh;
+    width: 28vh;
+    border: 4px solid black;
+    border-radius: 15px;
+    margin-left: 100px;
+    margin-top: 30px;
+    padding: 10px;
+    float: left;
+    transition: 0.5s;
+}
+
+.shoes:hover{
+    box-shadow: 1px 0px 30px 5px rgba(14, 12, 12, 0.7); 
+    background-color: rgb(69, 147, 161);
+   
+}
+
+.shoes2{
+    height: 20vh;
+    width: 28vh;
+    border: 4px solid black;
+    border-radius: 15px;
+    margin-left: 100px;
+    margin-top: 40px;
+    padding: 10px;
+    float: left;
+    transition: 0.5s;
+}
+
+.shoes2:hover{
+    box-shadow: 1px 0px 30px 5px rgba(14, 12, 12, 0.7);
+    background-color: rgb(69, 147, 161);
+}
+
+
+#pic{
+    background-image:url('img/s1.png');
+    background-position: center;
+    background-size: 30vh;
+    background-repeat: no-repeat;
+   
+}
+
+#pic2{
+    background-image:url('img/s2.png');
+    background-position: center;
+    background-size: 30vh;
+    background-repeat: no-repeat;
+
+}
+#pic3{
+     background-image:url('img/s6.png');
+    background-position: center;
+    background-size: 30vh;
+    background-repeat: no-repeat;
+}
+#pic4{
+    background-image:url('img/s7.png');
+    background-position: center;
+    background-size: 30vh;
+    background-repeat: no-repeat;
+
+}
+#pic5{
+    background-image:url('img/s3.png');
+    background-position: center;
+    background-size: 30vh;
+    background-repeat: no-repeat;
+}
+#pic6{
+    background-image:url('img/s4.png');
+    background-position: center;
+    background-size: 30vh;
+    background-repeat: no-repeat;
+}
+#pic7{
+    background-image:url('img/s9-removebg-preview.png');
+    background-position: center;
+    background-size: 30vh;
+    background-repeat: no-repeat;
+}
+#pic8{
+    background-image:url('img/s10.png');
+    background-position: center;
+    background-size: 30vh;
+    background-repeat: no-repeat;
+}
+
+/*  Page 4 - Contact  */
+
+.header4{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(img/bg.webp);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    opacity: 90%;
+}
+
+.header5{
+    text-align: center;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ 
+}
+
+.resume{
+    border: 2px solid black;
+    height: 70vh;
+    width: 27vh;
+    float: left;
+    margin-left: 200px;
+    background: rgba(0, 0, 0, 0.5);
+    transition: 2.5s ease-in-out;
+}
+
+.resume:hover{
+    transition: .5s;
+    box-shadow: 0px 0px 40px 10px ;
+    background-color: rgb(53, 122, 53);
+}
+
+#profile1{
+    height: 23vh;
+    width: 30vh;
+    margin-bottom: -20px;
+    margin-left: -8px;
+    margin-top: 10px;
+}
+#profile2{
+    height: 20vh;
+    width: 20vh;
+    margin-left: 21px;
+    margin-top: 12px;
+}
+
+#profile3{
+    height: 20vh;
+    width: 21vh;
+    margin-left: 19px;
+    margin-top: 12px;
+}
+
+
+h5{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#feedback{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*Shoes*/
+#imagery{
+    margin-left: 76vh;
+    margin-top: 15px;
+    height: 30vh;
+    border: black solid 4px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: 3.5s ease-in-out;
+}
+#imagery:hover{
+    background-color: aqua;
+    transition: 2.0s;
+    border-radius: 40px;
+}
+#imagery2{
+    margin-left: 72vh;
+    margin-top: 15px;
+    height: 30vh;
+    border: black solid 4px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: 3.5s ease-in-out;
+}
+#imagery2:hover{
+    background-color: aqua;
+    transition: 2.0s;
+    border-radius: 40px;
+}
+#imagery3{
+    margin-left: 76vh;
+    margin-top: 15px;
+    height: 30vh;
+    border: black solid 4px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: 3.5s ease-in-out;
+}
+#imagery3:hover{
+    background-color: aqua;
+    transition: 2.0s;
+    border-radius: 40px;
+}
+#imagery4{
+    margin-left: 75vh;
+    margin-top: 15px;
+    height: 30vh;
+    width: 55vh;
+    border: black solid 4px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: 3.5s ease-in-out;
+}
+#imagery4:hover{
+    background-color: aqua;
+    transition: 2.0s;
+    border-radius: 40px;
+}
+#imagery5{
+    margin-left: 76vh;
+    margin-top: 15px;
+    height: 30vh;
+    border: black solid 4px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: 3.5s ease-in-out;
+}
+#imagery5:hover{
+    background-color: aqua;
+    transition: 2.0s;
+    border-radius: 40px;
+}
+#imagery7{
+    margin-left: 71vh;
+    margin-top: 15px;
+    height: 30vh;
+    border: black solid 4px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: 3.5s ease-in-out;
+}
+#imagery7:hover{
+    background-color: aqua;
+    transition: 2.0s;
+    border-radius: 40px;
+}
+#imagery8{
+    margin-left: 77vh;
+    margin-top: 15px;
+    height: 30vh;
+    border: black solid 4px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: 3.5s ease-in-out;
+}
+#imagery8:hover{
+    background-color: aqua;
+    transition: 2.0s;
+    border-radius: 40px;
+}
+#buynow{
+    border: black solid 3px;
+    border-radius: 40px;
+    width: 100vh;
+    margin-left: 54vh;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+#button112{
+    border-radius: 10px;
+    width: 20vh;
+    background-color: #1ed117;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/*Want to know more*/
+#historey{
+    border: black solid 2px;
+    width: 200vh;
+    margin-top: 30px;
+    margin-left: 30px;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.7);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#centerh{
+    text-align: center;
+}
+
+
+
+
