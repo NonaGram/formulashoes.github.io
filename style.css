@@ -72,12 +72,13 @@ nav{
 button{
     height: 5vh;
     border-radius: 20px;
-    background: black;
-    border-color: green;
+    background: rgb(17, 20, 18);
+    border-color: rgb(18, 237, 18);
+    box-shadow: 0 0 25px green;
 }
 
 .button{
-    color: green;
+    color: rgb(8, 246, 8);
     text-decoration: none;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
@@ -496,7 +497,7 @@ h5{
     text-align: center;
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
     padding: 10px;
 }
 #button112{
@@ -507,7 +508,36 @@ h5{
     font-weight: bold;
     font-size: 20px;
 }
-
+.des{
+    border-radius: 5px;
+   height: 15px;
+   box-shadow: 0 0 15px rgb(195, 241, 195);
+}
+.first-button{
+    accent-color: green;
+}
+.second-button{
+    accent-color: orange;
+}
+.third-button{
+    accent-color: violet;
+}
+.fourth-button{
+    accent-color: red;
+}
+.fifth-button{
+    accent-color: rgb(143, 194, 23);
+}
+.butt1{
+    box-shadow: 0 0 20px green;
+}
+#rad{
+    margin-left: 10px;
+ 
+}
+label{
+    margin-left: 20px;
+}
 /*Want to know more*/
 #historey{
     border: black solid 2px;
